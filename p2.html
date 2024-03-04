@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>ask page </title>
+</head>
+<body>
+
+<form action ="/action_page.php" method="post">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="country">Country:</label><br>
+            <select name ="where">
+            <option>Choose a country</option>
+            <option>Jordan</option>
+            <option>United States</option>
+            <option>Turkiye</option>
+</select><br>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
